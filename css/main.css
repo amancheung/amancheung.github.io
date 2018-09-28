@@ -11,10 +11,33 @@
   align-items: center;
   justify-content: center;
 }
-
-a {
-  color:white;
-  text-decoration: none;
+h2 {
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ddd 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: white;
   display: table;
   margin-top: 1rem;
+  text-decoration: none;
+  transition: background-position 0.5s ease-out;
+}
+h2:hover {
+  color: black;
+  background-position: -99.99% 0;
+}
+
+a {
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ddd 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: white;
+  display: table;
+  margin-top: 1rem;
+  text-decoration: none;
+  transition: background-position 0.5s ease-out;
+}
+a:hover {
+  color: black;
+  font-weight: bold;
+  background-position: -99.99% 0;
 }
